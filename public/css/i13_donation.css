@@ -1,0 +1,102 @@
+.lblerr{color:red;font-size:15px}
+  .donation_{
+
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.donation_ details {
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+    .donation_ details summary {
+    cursor: pointer;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; }
+    .donation_ details div
+    {
+    padding: 5px 10px;
+
+    }
+
+    .donation_ details[open] > summary:first-of-type {
+    list-style-type: disclosure-open;
+}
+    .donation_ details > summary:first-of-type {
+        display: list-item;
+        counter-increment: list-item 0;
+        list-style: inside disclosure-closed;
+    }
+
+    .donation_ details  {
+        border-bottom: 0px;
+    }
+    .donation_ details[open]  {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .make_donation{
+    box-sizing: border-box;
+    border: 1px solid #d3ced2;
+    padding: 6px 6px 5px;
+    margin: 0 4px 0 0;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0px;
+    padding: 4px 4px;
+    color: #666;
+    margin-bottom: 1rem;
+    height: 44px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    width: 100%;
+
+    }
+.add_donation{
+    background: #0088cc;
+    padding: 13px 26px;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 0;
+    font-family: 'MontserratRegular';
+    z-index: 1;
+    line-height: 1.5;
+    position: relative;
+    text-decoration: none;
+     width: 100%;
+     cursor:pointer;
+}
+.add_donation:hover{
+    color: #fff;
+    background: #036fa5;
+    transition: all .5s ease 0s;
+}
+select.make_donation{
+    width: 100%;
+}
+select.make_donation_cat{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #d3ced2;
+    padding: 6px 6px 5px;
+    margin: 0 4px 0 0;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0px;
+    padding: 4px 4px;
+    color: #666;
+    margin-bottom: 1rem;
+    height: 44px;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.donation_blk{display:inline-block;width:100%}
+.i13_req{margin-left:5px;color:#e43d33}
+summary.donation_summary::marker {font-size: 20px;}
+.donation_summary label{display:inline}

@@ -1,0 +1,155 @@
+#namediv input[type=radio]{
+    width:auto;
+}
+
+.namediv input[type=radio]{
+    width:auto;
+}
+
+
+#current-page-selector{
+    width:auto !important;
+}
+
+.error_label{padding:6px;}
+.image_error{color:red ;}
+.succMsg{background:#E2F3DA  ;border: 1px solid #9ADF8F ;color:#556652  ;padding:8px 8px 8px 36px ;text-align:left ;margin:5px ;margin-left: 0px ;margin-top: 30px ;width:505px  ;}
+.errMsg{background:#FFCECE  ;border: 1px solid #DF8F8F ;color:#665252  ;padding:8px 8px 8px 36px ; text-align:left ;margin:5px ;margin-left: 0px ;margin-top: 30px ;width:505px  ;}
+#gridTbl{width: 100%;}
+.table{width:100%;margin-bottom:18px;}.table th,.table td{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #E1E1E1}
+.table th{font-weight:bold;}
+.table thead th{vertical-align:bottom;}
+.table thead:first-child tr th,.table thead:first-child tr td{border-top:0;}
+.table tbody+tbody{border-top:2px solid #ddd;}
+.table-condensed th,.table-condensed td{padding:4px 5px;background-color: #ffffff;}
+.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapsed;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.table-bordered th+th,.table-bordered td+td,.table-bordered tFh+td,.table-bordered td+th{border-left:1px solid #E1E1E1;background-color: #ffffff;}
+.table-bordered thead:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child td{border-top:0;}
+.table-bordered thead:first-child tr:first-child th:first-child,.table-bordered tbody:first-child tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+.table-bordered thead:first-child tr:first-child th:last-child,.table-bordered tbody:first-child tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+.table-bordered thead:last-child tr:last-child th:first-child,.table-bordered tbody:last-child tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+.table-bordered thead:last-child tr:last-child th:last-child,.table-bordered tbody:last-child tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#f9f9f9;}
+.table tbody tr:hover td,.table tbody tr:hover th{background-color:#f5f5f5;}
+.alignCenter{text-align: center;}
+#img_disp{border:1px solid #ccc;width:200px;height:200px }
+#img_disp_img{border:1px solid #ccc;width:200px;height:200px }
+#img_disp_link{border:1px solid #ccc;width:200px;height:200px }
+.postbox .inside, .stuffbox .inside {padding: 0 12px 12px !important;line-height: 1.4em !important;font-size: 13px !important;}
+.pagination {clear: both;padding: 20px 0;position: relative;font-size: 11px;line-height: 13px;}
+.pagination span, .pagination a {display: block;float: left;margin: 2px 2px 2px 0;padding: 6px 9px 5px 9px;text-decoration: none;width: auto;color: #fff;background: #555;}
+.pagination a:hover {color: #fff;background: #3279BB;}
+.pagination .current {padding: 6px 9px 5px 9px;background: #3279BB;color: #fff; }
+ @media only screen and (max-width: 800px) {
+/* Force table to not be like tables anymore */
+#no-more-tables table, #no-more-tables thead, #no-more-tables tbody,
+        #no-more-tables th, #no-more-tables td, #no-more-tables tr {display: block;}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+#no-more-tables thead tr {position: absolute;top: -9999px;left: -9999px;}
+#no-more-tables tr {border: 1px solid #ccc;}
+#no-more-tables td {/* Behave  like a "row" */
+border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+}
+#no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+}
+
+/*
+            Label the data
+            */
+#no-more-tables td:before {
+        content: attr(data-title);
+}
+}
+#predefined_donation_values #actions{text-align:right}
+#predefined_donation_values .column-actions{text-align:right}
+
+
+.order-status {
+	display: inline-flex;
+	line-height: 2.5em;
+	color: #777;
+	background: #e5e5e5;
+	border-radius: 4px;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	margin: -.25em 0;
+	cursor: inherit !important;
+	white-space: nowrap;
+	max-width: 100%
+}
+
+.order-status.status-completed {
+	background: #c8d7e1;
+	color: #2e4453
+}
+
+.order-status.status-on-hold {
+	background: #f8dda7;
+	color: #94660c
+}
+
+.order-status.status-failed {
+	background: #eba3a3;
+	color: #761919
+}
+
+.order-status.status-processing {
+	background: #c6e1c6;
+	color: #5b841b
+}
+
+.order-status.status-trash {
+	background: #eba3a3;
+	color: #761919
+}
+
+.order-status>span {
+	margin: 0 1em;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.wc-order-preview .order-status {
+	float: right;
+	margin-right: 54px
+}
+.align_right{text-align:right}
+.border_top{border-top:1px solid #ccc}
+
+.search-box input[name="date_filter"]{
+
+    margin: 0 4px 0 0;
+}
+.lbl_search_i13{padding:5px;}
+#donation_report_form .cal_icon{height: 33px;position: relative;left: 28px;top: 6px}
+#donation_report_form input#reportrange{padding: 0 26px;background:#fff}
+#donation_report_form #ord_status_chosen{width: 147px;height: 33px;}
+
+#donation_report_form #ord_status_chosen  .chosen-choices{
+
+background-image:unset !important;
+background-color:#fff;
+border-radius:5px;
+}
+#donation_report_form #ord_status_chosen .chosen-search-input{color:#000}
+
+/*
+#donation_report_form #s{height: 33px;position: relative;left: 24px;top: 5px}
+
+#donation_report_form #reportrange{padding: 0 26px;background-color:#fff;height: 33px;}
+#donation_report_form #ord_status_chosen{width: 147px;height: 33px;}
+*/
